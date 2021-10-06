@@ -1,3 +1,10 @@
 * {
   margin: 0;
   padding: 0; }
+
+body {
+  background: #02146c;
+  background: radial-gradient(circle, #02146c 0%, #b61435 100%); }
+  body h1 {
+    color: #fff;
+    font-size: 6rem; }
