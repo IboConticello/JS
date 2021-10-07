@@ -4,10 +4,38 @@
 }
 
 body {
-    background: rgb(2,20,108);
-    background: radial-gradient(circle, rgba(2,20,108,1) 0%, rgba(182,20,53,1) 100%);
+    background-color: aquamarine;
     h1 {
-        color: #fff;
-        font-size: 6rem;
+        font-family: 'Poppins', sans-serif;
+        color: #050801;
+        font-size: 4rem;
+        &:hover {
+            color: #f33f3f;
+        }
+        &:active {
+            color: #f33f3fbe;
+        }
+    }
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        color: #050801;
+        font-size: 2.5rem;
+        &:hover {
+            color: #f33f3f;
+        }
+        &:active {
+            color: #f33f3fbe;
+        }
+    }
+    h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #050801;
+        font-size: 2rem;
+        &:hover {
+            color: #f33f3f;
+        }
+        &:active {
+            color: #f33f3fbe;
+        }
     }
 }

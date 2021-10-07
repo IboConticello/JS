@@ -3,8 +3,28 @@
   padding: 0; }
 
 body {
-  background: #02146c;
-  background: radial-gradient(circle, #02146c 0%, #b61435 100%); }
+  background-color: aquamarine; }
   body h1 {
-    color: #fff;
-    font-size: 6rem; }
+    font-family: 'Poppins', sans-serif;
+    color: #050801;
+    font-size: 4rem; }
+    body h1:hover {
+      color: #f33f3f; }
+    body h1:active {
+      color: #f33f3fbe; }
+  body h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #050801;
+    font-size: 2.5rem; }
+    body h2:hover {
+      color: #f33f3f; }
+    body h2:active {
+      color: #f33f3fbe; }
+  body h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #050801;
+    font-size: 2rem; }
+    body h3:hover {
+      color: #f33f3f; }
+    body h3:active {
+      color: #f33f3fbe; }
