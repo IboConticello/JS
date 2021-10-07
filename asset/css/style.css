@@ -28,3 +28,7 @@ body {
       color: #f33f3f; }
     body h3:active {
       color: #f33f3fbe; }
+  body p {
+    font-family: 'Poppins', sans-serif;
+    color: #050801;
+    font-size: 1.2rem; }
