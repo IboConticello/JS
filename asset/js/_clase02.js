@@ -36,7 +36,7 @@ alert ("Nice first one, try to guess the second number and I'll give you 50% in 
 let userAnswer02 = parseInt (prompt ("Please, let me know the second number:"));
 
 if (userAnswer02 == gameAnswer02) {
-    alert ("No way! are you cheating? you get the 50% because the second number is " + gameAnswer02);
+    alert ("No way! are you cheating? you get the 50% because the second number is " + gameAnswer02 + ". CONGRATS!");
 }   else if ((userAnswer02 >= 1) && (userAnswer02 < 5)) {
     alert ("Ouch, you miss this oportunity but try again tomorrow, the correct number is " + gameAnswer02);
 }   else if ((userAnswer02 >= 5) && (userAnswer02 <= 8)) {
